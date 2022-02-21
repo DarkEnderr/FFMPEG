@@ -1,0 +1,1 @@
+ffmpeg -re -stream_loop 20 -i <name file video>.mp4 -vcodec libx264 -preset superfast -ar 44100 -s 1920x1080 -f flv "rtmp://a.rtmp.youtube.com/live2/96am-2z98-r5vj-erpk-fxrm"
